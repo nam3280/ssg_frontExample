@@ -1,0 +1,66 @@
+/* *{
+    color: red;
+} */
+
+/* p{
+    color:blueviolet;
+} */
+
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+/* # : p의 id값 */
+#p1{
+    color:blue;
+}
+
+#p2{
+    color:green;
+}
+
+/* .클래스 : class 하나 이상 지정 가능*/
+.container{
+    color:brown;
+    background-color: cadetblue;
+}
+
+.my-class1{
+    color:blueviolet;
+}
+
+.my-class2{
+    background-color:black;
+}
+
+li.select{
+    color:red;
+}
+
+.class4{
+    color: black;
+}
+
+.select2{
+    color: red;
+}
+
+.select3{
+    background-color: blue;
+}
+
+input[type="text"]{background-color: red;}
+input[type="password"]{background-color: blue;}
+
+#header h1, #header h2{
+    color: red;
+}
+
+#header > h1{
+    color: red;
+}
+
+#section > h1{
+    color:blue;
+}
