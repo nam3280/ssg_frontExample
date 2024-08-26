@@ -1,0 +1,57 @@
+@import "./global.css";
+
+.user_component {
+  display: flex;
+  justify-content: center;
+}
+
+.user-component__profile {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.add-profile-btn {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.user, .new{
+  text-align: center;
+}
+
+.continue-watching {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem;
+}
+
+.continue-watching1, .continue-watching2 {
+  height: 10rem;
+  width: 11rem;
+  border-radius: 1rem;
+}
+
+.continue-watching-name{
+  display: flex;
+  flex-direction: row;
+}
+
+.continue-watching-name1, .continue-watching-name2{
+  padding: 8px;
+  background-color: var(--purple);
+  border-radius: 1rem;
+}
+
+.continue-watching-name2{
+  margin-left: 10px;
+}
+
+.line{
+  margin-left: 5px;
+  margin-top: 3rem;
+  width: 50%;
+}
