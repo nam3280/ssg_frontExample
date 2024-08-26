@@ -6,11 +6,13 @@
 }
 
 .user-component__profile {
+  margin-top: 10px;
   width: 4rem;
   border-radius: 50%;
 }
 
 .add-profile-btn {
+  margin-top: 10px;
   height: 4rem;
   width: 4rem;
   margin-left: 1rem;
@@ -54,4 +56,43 @@
   margin-left: 5px;
   margin-top: 3rem;
   width: 50%;
+}
+
+.mypage{
+  display: flex;
+  flex-direction: column;
+}
+
+.mypage-wishlist{
+  display: flex;
+  flex-direction: row;
+  background-color: var(--purple);
+  border-radius: 1rem;
+  margin: 5px;
+}
+
+.mypage-wishlist-img{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 1rem;
+  margin: 10px;
+}
+
+
+.mypage-wishlist-name{
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.mypage-wishlist-play{
+  height: 3rem;
+  width: 3rem;
+  background-color: beige;
+  border-radius: 90%;
+  margin-top: 1rem;
+}
+
+.mypage-wishlist > .mypage-wishlist-play{
+  position: absolute;
+  right: 0;
 }
