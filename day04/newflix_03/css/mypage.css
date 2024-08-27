@@ -55,7 +55,7 @@
 .line{
   margin-left: 5px;
   margin-top: 3rem;
-  width: 50%;
+  width: 99%;
 }
 
 .mypage{
@@ -69,6 +69,7 @@
   background-color: var(--purple);
   border-radius: 1rem;
   margin: 5px;
+  position: relative;
 }
 
 .mypage-wishlist-img{
